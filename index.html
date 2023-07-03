@@ -3,11 +3,224 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Vigneshwaran Shankaran</title>
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vigneshwaran Shankaran - Hey there!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="/assets/style.css">
   </head>
   
   <body>
-   Coming Soon.
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <h1 class="ms-5">Vigneshwaran Shankaran</h1>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#publications">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#miscellaneous">Miscellaneous</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="/assets/files/CV_Vigneshwaran Shankaran - website.pdf">CV</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container mt-5">
+      <div id="home" class="mb-5">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="/assets/profile.jpg" class="img-fluid rounded-circle">
+
+            <div class="mt-5 text-center">
+              <a href="mailto:vigneshwaran.shankaran@ut.ee" target="_blank"><i class="fas fa-envelope icon"></i></a>
+              <a href="https://twitter.com/vignesh_waran_s" target="_blank"><i class="fab fa-twitter icon"></i></a>
+              <a href="https://mastodon.social/@vigneshwaran_shankaran" target="_blank"><i class="fab fa-mastodon icon"></i></a>
+              <a href="https://linkedin.com/in/vigneshwaran-shankaran-a22806179" target="_blank"><i class="fab fa-linkedin icon"></i></a>
+              <a href="https://scholar.google.com/citations?user=o1hYc0EAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar icon"></i></a>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <p>
+              I am a research intern in Prof. <a href="https://scholar.google.com/citations?hl=en&user=GKegbo0AAAAJ">Rajesh Sharma</a>‘s 
+              <a href="https://css.cs.ut.ee/">Computational Social Science Group</a>. My work is located at 
+              the intersection of NLP and social science. Right now, I am particularly interested in 
+              solving problems in hate and abuse speech on online social media platforms.
+            </p>
+
+            <p>
+              I'm currently looking for PhD position in and around the topic of hate speech. You can find my research Proposal outlining my 
+              objectives and interests <a target="_blank" href="/assets/files/PhD Proposal_Vigneshwaran Shankaran.pdf">here</a>. The crux is I'm intreseted in enhancing
+              hate speech detection and mitigation using NLP. I'm particularly interested in contextual analysis.
+            </p>
+            
+            <p>
+              In May 2022, I completed my Masters in Data Science and Computing at SSSIHL, India, where I was supervised by Prof. Bhaskaran V. 
+              In my master thesis, I worked on diagnosing Schizophrenia from fMRI scans using CNNs in which I proposed a novel temporal 
+              aggregation method. However my current interest does not involve computer aided diagnoisis.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="publications" class="mb-5">
+        <h2>Publications</h2>
+
+        <!--div class="publication mb-5">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="/assets/publications/IMAGE" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <h4>Title</h3>
+              <h5>Authors</h4>
+              <p>Venue</p>
+              <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#abstractN">Abstract</button>
+              <a target="_blank" class="btn btn-primary" href="">Code</a>
+              <a target="_blank" class="btn btn-primary" href="">Paper</a>
+              <div id="abstractN" class="collapse">
+                <p>
+                  Abstract
+                </p>
+              </div>
+            </div> 
+          </div>
+        </div-->
+
+        <!-- Current Number 3 - Next Number 4 -->
+        <div class="publication mb-5">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="/assets/publications/ToxicityLens.png" class="img-fluid rounded">
+            </div>
+            <div class="col-md-8">
+              <h4>Analyzing Public Conversations Through The Lens Of Toxicity</h3>
+              <h5>Vigneshwaran Shankaran, Rajesh Sharma</h4>
+              <h6>Under Review in ASONAM'23</h6>
+              <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#abstract3">Abstract</button>
+              <a target="_blank" class="btn btn-primary disabled" href="#">Paper</a>
+              <a target="_blank" class="btn btn-primary disabled" href="#">Code</a>
+              <div id="abstract3" class="collapse">
+                <p>
+                  Online social media has become increasingly popular in recent years due to its ease of access and ability to connect 
+                  with others. One of social media's main draws is its anonymity, allowing users to share their thoughts and opinions 
+                  without fear of judgment or retribution. This anonymity has also made social media prone to harmful content, which 
+                  requires moderation to ensure responsible and productive use. Many methods using artificial intelligence have been 
+                  employed to detect harmful content. However, conversation and contextual analysis of hate speech are still understudied. 
+                  Most promising works only analyze a single text at a time rather than the conversation supporting it. In this work, we use a 
+                  tree-based analysis approach to better understand how users behave concerning toxicity in public conversation settings. 
+                  To this end, we collect the comment sections of the top 100 posts of 8 relevant Reddit communities, which have amassed 
+                  over 1 million responses. We find that toxic comments increase the likelihood of subsequent toxic comments being 
+                  produced in online conversations. Our analysis also shows that immediate context plays a vital role in shaping a 
+                  response rather than the original post. We finally study the effect of consensual profanity.
+                </p>
+              </div>
+            </div> 
+          </div>
+        </div>
+
+        <div class="publication mb-5">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="/assets/publications/MisinformationConcierge.png" class="img-fluid rounded">
+            </div>
+            <div class="col-md-8">
+              <h4>Misinformation Concierge: A proof-of-concept with curated Twitter dataset on COVID-19 vaccination</h3>
+              <h5>Shakshi Sharma, Anwittaman Datta, Vigneshwaran Shankaran, Rajesh Sharma</h4>
+              <h6>Under Review in CIKM'23 Demo track</h6>
+              <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#abstract2">Abstract</button>
+              <a target="_blank" class="btn btn-primary disabled" href="#">Paper</a>
+              <a target="_blank" class="btn btn-primary disabled" href="#">Code</a>
+              <div id="abstract2" class="collapse">
+                <p>
+                  We demonstrate the Misinformation Concierge, a powerful tool that provides actionable intelligence on misinformation 
+                  prevalent in social media. Specifically, it uses language processing and machine learning tools to identify 
+                  subtopics of discourse and discerns non/misleading posts; presents statistical reports for policy-makers to understand 
+                  the big picture of prevalent misinformation in a timely manner; and recommends rebuttal messages for specific pieces 
+                  of misinformation, identified from within the corpus of data - providing means to intervene and counter 
+                  misinformation promptly. The Misinformation Concierge proof-of-concept using a curated dataset is accessible at: 
+                  <a href="https://demo-frontend-uy34.onrender.com/">https://demo-frontend-uy34.onrender.com/</a>
+                </p>
+              </div>
+            </div> 
+          </div>
+        </div>
+        
+        <div class="publication mb-5">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="/assets/publications/thesis.png" class="img-fluid rounded">
+            </div>
+            <div class="col-md-8">
+              <h4>Multi-site Diagnostic Classification Of Schizophrenia Using 3D CNN On Aggregated Task-based fMRI Data</h3>
+              <h5>Vigneshwaran Shankaran, Bhaskaran V</h4>
+              <h6>Preprint</h6>
+              <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#abstract1">Abstract</button>
+              <a target="_blank" class="btn btn-primary" href="https://arxiv.org/abs/2210.05240">Paper</a>
+              <a target="_blank" class="btn btn-primary" href="https://github.com/s-vigneshwaran/Schizophrenia-Classification-from-multi-site-fMRI-data">Code</a>
+              <div id="abstract1" class="collapse">
+                <p>
+                  In spite of years of research, the mechanisms that underlie the development of 
+                  schizophrenia, as well as its relapse, symptomatology, and treatment, continue to be a 
+                  mystery. The absence of appropriate analytic tools to deal with the variable and 
+                  complicated nature of schizophrenia may be one of the factors that contribute to the 
+                  development of this disorder. Deep learning is a subfield of artificial intelligence 
+                  that was inspired by the nervous system. In recent years, deep learning has made it 
+                  easier to model and analyse complicated, high-dimensional, and nonlinear systems. 
+                  Research on schizophrenia is one of the many areas of study that has been revolutionised 
+                  as a result of the outstanding accuracy that deep learning algorithms have demonstrated 
+                  in classification and prediction tasks. Deep learning has the potential to become a 
+                  powerful tool for understanding the mechanisms that are at the root of schizophrenia. 
+                  In addition, a growing variety of techniques aimed at improving model interpretability 
+                  and causal reasoning are contributing to this trend. Using multi-site fMRI data and a 
+                  variety of deep learning approaches, this study seeks to identify different types of 
+                  schizophrenia. Our proposed method of temporal aggregation of the 4D fMRI data 
+                  outperforms existing work. In addition, this study aims to shed light on the strength of 
+                  connections between various brain areas in schizophrenia individuals.
+                </p>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+
+      <div id="miscellaneous">
+        <h2>Miscellaneous</h2>
+
+          <ul>
+            <li>
+              Teaching Assistant - MTAT.03.319 Business Data Analytics, University of Tartu - 
+              Fall 22 & Spring 23. Lectures are available <a target="_blank" href="https://panopto.ut.ee/Panopto/Pages/Sessions/List.aspx?folderID=bd49af72-392a-4ce7-9c01-af0800fa2d7d">here</a>
+              (Access to UT Students).
+            </li>
+
+            <li>
+              Master Thesis Supervision - Toxicity in Google Play Store Reviews: What, Where and Why? - 2022/3
+            </li>
+
+            <li>
+              I'm planning to update this <a target="_blank" href="https://github.com/s-vigneshwaran/hatespeech-info">repository</a> 
+              with information I find useful for hate speech research.
+            </li>
+          </ul>
+      </div>
+    </main>
+
+    <div class="text-end">Last Updated: 03 July 2023</div>
+
+    <script src="/assets/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
