@@ -31,7 +31,7 @@
               <a class="nav-link" href="#miscellaneous">Miscellaneous</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" target="_blank" href="/assets/files/CV_Vigneshwaran Shankaran - website.pdf">CV</a>
+              <a class="nav-link" target="_blank" href="">CV</a>
             </li>
           </ul>
         </div>
@@ -63,14 +63,19 @@
             <p>
               I'm currently looking for PhD position in and around the topic of hate speech. You can find my research proposal outlining my 
               objectives and interests <a target="_blank" href="/assets/files/PhD Proposal_Vigneshwaran Shankaran.pdf">here</a>. The crux: I'm interested in enhancing
-              hate speech detection and mitigation using NLP. I'm particularly interested in contextual analysis.
+              hate speech detection and mitigation using NLP. I'm particularly interested in low resource and multilingual settings.
             </p>
             
-            <p>
+            <p class="text-center">
+              <a href="http://www.nerdtests.com/ft_nt2.php">
+                <img src="http://www.nerdtests.com/images/badge/nt2/01b3caff1e532090.png" alt="NerdTests.com says I'm an Uber-Dorky High Nerd.  Click here to take the Nerd Test, get nerdy images and jokes, and talk to others on the nerd forum!">
+              </a>
+            </p>
+            <!--p>
               In May 2022, I completed my Masters in Data Science and Computing at SSSIHL, India, where I was supervised by Prof. Bhaskaran V. 
               In my master thesis, I worked on diagnosing Schizophrenia from fMRI scans using CNN, in which I proposed a novel temporal 
               aggregation method. However, my current interest does not involve computer-aided diagnosis.
-            </p>
+            </p-->
           </div>
         </div>
       </div>
@@ -109,37 +114,76 @@
           </div>
         </div-->
 
-        <!-- Current Number 3 - Next Number 4 -->
-        <div class="publication mb-5">
+        <!-- Current Number 5 - Next Number 6 -->
+        
+        <!--div class="publication mb-5">
           <div class="row">
             <div class="col-md-4">
-              <img src="/assets/publications/ToxicityLens.png" class="img-fluid rounded">
+              <img src="/assets/publications/placeholder.png" class="img-fluid rounded">
             </div>
             <div class="col-md-8">
-              <h4>Analyzing Toxicity in Deep Conversations: A Reddit Case Study</h3>
-              <h5>Vigneshwaran Shankaran, Rajesh Sharma</h4>
+              <h4>Augmentation Strategies for Testing Robustness in Blackbox Hate Speech Models</h3>
+              <h5>Vigneshwaran Shankaran*, Devayani KV*, Rajesh Sharma</h4>
               <h6>Under Review in ASONAM'23</h6>
-              <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#abstract3">Abstract</button>
+              <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#abstract5">Abstract</button>
               <a target="_blank" class="btn btn-primary disabled" href="#">Paper</a>
               <a target="_blank" class="btn btn-primary disabled" href="#">Code</a>
-              <div id="abstract3" class="collapse">
+              <div id="abstract5" class="collapse">
                 <p>
-                  Online social media has become increasingly popular in recent years due to its ease of access and ability to connect with others. One of social 
-                  media's main draws is its anonymity, allowing users to share their thoughts and opinions without fear of judgment or retribution. This anonymity 
-                  has also made social media prone to harmful content, which requires moderation to ensure responsible and productive use. Several methods using 
-                  artificial intelligence have been employed to detect harmful content. However, conversation and contextual analysis of hate speech are still 
-                  understudied. Most promising works only analyze a single text at a time rather than the conversation supporting it. In this work, we employ a 
-                  tree-based approach to understand how users behave concerning toxicity in public conversation settings. To this end, we collect both the posts and 
-                  the comment sections of the top 100 posts from 8 Reddit communities that allow profanity, totaling over 1 million responses. We find that toxic 
-                  comments increase the likelihood of subsequent toxic comments being produced in online conversations. Our analysis also shows that immediate 
-                  context plays a vital role in shaping a response rather than the original post. We also study the effect of consensual profanity and observe 
-                  overlapping similarities with non-consensual profanity in terms of user behavior and patterns.
+                  This paper presents innovative augmentation strategies to assess the robustness of 
+                  black-box hate speech models, with the goal of enhancing their defenses against 
+                  adversarial attacks. Our approach revolves around the idea of flipping labels through 
+                  text augmentation, comprising character-level and word-level modifications, as well as 
+                  rephrasing utilizing an LLM. To identify the most effective candidates for label 
+                  flipping, we employ a ranking algorithm that considers various augmentation techniques. 
+                  Once the optimal candidates are identified, we proceed to train a specialized rephrasing 
+                  model. This model is designed to generate adversarial examples by systematically 
+                  modifying the input text. We aim to expose vulnerabilities in the Perspective API and its 
+                  resistance to adversarial manipulation. The results of our experiments reveal the 
+                  efficacy of our augmentation strategies in identifying weaknesses within black-box hate 
+                  speech models, emphasizing the importance of proactive testing for robustness in 
+                  AI-driven content moderation systems. This research contributes to the ongoing efforts 
+                  to develop more reliable and resilient models for combatting hate speech and promoting a 
+                  safer online environment.
                 </p>
               </div>
             </div> 
           </div>
         </div>
 
+        <div class="publication mb-5">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="/assets/publications/gender_stereotypes_poems.png" class="img-fluid rounded">
+            </div>
+            <div class="col-md-8">
+              <h4>Don’t Touch The Classics: A Study on Identifying and Rectifying Gender Stereotypes in Rhymes and Poems</h3>
+              <h5>Aditya Narayan Sankaran*, Vigneshwaran Shankaran*, Sampath Lonka, Rajesh Sharma</h4>
+              <h6>Under Review in ASONAM'23</h6>
+              <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#abstract4">Abstract</button>
+              <a target="_blank" class="btn btn-primary disabled" href="#">Paper</a>
+              <a target="_blank" class="btn btn-primary disabled" href="#">Code</a>
+              <div id="abstract4" class="collapse">
+                <p>
+                  Rhymes and poems are a powerful medium for transmitting cultural norms and societal roles. 
+                  However, the pervasive existence of gender stereotypes in these works perpetuates biased 
+                  perceptions and limits the scope of individuals' identities. Past works have shown that 
+                  stereotyping and prejudice emerge in early childhood, and developmental research on causal 
+                  mechanisms is critical for understanding and controlling stereotyping and prejudice. 
+                  This work contributes by gathering a dataset of rhymes and poems to identify gender 
+                  stereotypes. We then propose a model with 97\% accuracy to address gender bias. Gender 
+                  stereotypes were rectified using a Large Language Model (LLM) and human educators along 
+                  with a survey comparing their effectiveness. The findings highlight the pervasive nature of 
+                  gender stereotypes in literary works and reveal the potential of LLMs in rectifying gender 
+                  stereotypes and encourage further research in this area. This study raises awareness and 
+                  promotes inclusivity within artistic expressions, making a significant contribution to the 
+                  discourse on gender equality.
+                </p>
+              </div>
+            </div> 
+          </div>
+        </div-->
+        
         <div class="publication mb-5">
           <div class="row">
             <div class="col-md-4">
@@ -160,6 +204,36 @@
                   of misinformation, identified from within the corpus of data - providing means to intervene and counter 
                   misinformation promptly. The Misinformation Concierge proof-of-concept using a curated dataset is accessible at: 
                   <a href="https://demo-frontend-uy34.onrender.com/">https://demo-frontend-uy34.onrender.com/</a>
+                </p>
+              </div>
+            </div> 
+          </div>
+        </div>
+
+        <div class="publication mb-5">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="/assets/publications/ToxicityLens.png" class="img-fluid rounded">
+            </div>
+            <div class="col-md-8">
+              <h4>Analyzing Toxicity in Deep Conversations: A Reddit Case Study</h3>
+              <h5>Vigneshwaran Shankaran, Rajesh Sharma</h4>
+              <!--h6>Under Review in ASONAM'23</h6-->
+              <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#abstract3">Abstract</button>
+              <a target="_blank" class="btn btn-primary disabled" href="#">Paper</a>
+              <a target="_blank" class="btn btn-primary disabled" href="#">Code</a>
+              <div id="abstract3" class="collapse">
+                <p>
+                  Online social media has become increasingly popular in recent years due to its ease of access and ability to connect with others. One of social 
+                  media's main draws is its anonymity, allowing users to share their thoughts and opinions without fear of judgment or retribution. This anonymity 
+                  has also made social media prone to harmful content, which requires moderation to ensure responsible and productive use. Several methods using 
+                  artificial intelligence have been employed to detect harmful content. However, conversation and contextual analysis of hate speech are still 
+                  understudied. Most promising works only analyze a single text at a time rather than the conversation supporting it. In this work, we employ a 
+                  tree-based approach to understand how users behave concerning toxicity in public conversation settings. To this end, we collect both the posts and 
+                  the comment sections of the top 100 posts from 8 Reddit communities that allow profanity, totaling over 1 million responses. We find that toxic 
+                  comments increase the likelihood of subsequent toxic comments being produced in online conversations. Our analysis also shows that immediate 
+                  context plays a vital role in shaping a response rather than the original post. We also study the effect of consensual profanity and observe 
+                  overlapping similarities with non-consensual profanity in terms of user behavior and patterns.
                 </p>
               </div>
             </div> 
@@ -234,7 +308,7 @@
       </div>
     </main>
 
-    <div class="text-end">Last Updated: 08 August 2023</div>
+    <div class="text-end">Last Updated: 20 September 2023</div>
 
     <script src="/assets/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
