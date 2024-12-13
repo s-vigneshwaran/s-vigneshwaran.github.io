@@ -7,7 +7,7 @@
     <title>Vigneshwaran Shankaran - Hey there!</title>
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     <link rel="stylesheet" href="/assets/style.css">
   </head>
@@ -26,19 +26,22 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#news">News</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#publications">Publications</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#miscellaneous">Miscellaneous</a>
             </li>
-            <li class="nav-item">
+            <!--li class="nav-item">
               <a class="nav-link" target="_blank" href="">CV</a>
-            </li>
+            </li-->
           </ul>
         </div>
       </div>
     </nav>
-
+    
     <main class="container mt-5">
       <div id="home" class="mb-5">
         <div class="row">
@@ -47,11 +50,10 @@
 
             <div class="mt-5 text-center">
               <a href="mailto:vigneshwaran.shankaran@gesis.org" target="_blank"><i class="fas fa-envelope icon"></i></a>
-              <a href="https://twitter.com/s_vignesh_waran" target="_blank"><i class="fab fa-twitter icon"></i></a>
-              <a href="https://mastodon.social/@vigneshwaran_shankaran" target="_blank"><i class="fab fa-mastodon icon"></i></a>
-              <a href="https://linkedin.com/in/vigneshwaran-shankaran-a22806179" target="_blank"><i class="fab fa-linkedin icon"></i></a>
+              <a href="https://bsky.app/profile/vigneshwaran-s.bsky.social" target="_blank"><i class="fa-brands fa-bluesky icon"></i></a>
               <a href="https://scholar.google.com/citations?user=o1hYc0EAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar icon"></i></a>
               <a href="https://github.com/s-vigneshwaran" target="_blank"><i class="fab fa-github icon"></i></a>
+              <a href="https://linkedin.com/in/vigneshwaran-shankaran-a22806179" target="_blank"><i class="fab fa-linkedin icon"></i></a>
             </div>
           </div>
           <div class="col-md-8">
@@ -73,7 +75,7 @@
               Before GESIS, I was a research intern in Prof. 
               <a target="_blank" href="https://scholar.google.com/citations?hl=en&user=GKegbo0AAAAJ">Rajesh Sharma</a>‘s 
               <a target="_blank" href="https://css.cs.ut.ee/">Computational Social Science Group</a>.
-              If you'd like to chat with me, feel free to schedule a meeting through my <a href="https://calendar.app.google/Y4X51UgzmsvmGp3k7">Google Calendar appointment link</a>
+              If you'd like to chat with me, feel free to schedule a meeting through my <a href="https://outlook-sdf.office.com/bookwithme/user/97c3d795d7314b428003a5b7369e0ff6%40gesis.org?anonymous">Microsoft Calendar appointment link</a>
             </p>
 
             <p>  
@@ -98,6 +100,10 @@
         <h2>News</h2>
 
         <ul>
+          <li>
+            <b>Oct 2024</b> New Pre-print - "ProvocationProbe: Instigating Hate Speech Dataset from Twitter"
+          </li>
+          
           <li>
             <b>Apr 2024</b> New Pre-print - "Analyzing Toxicity in Deep Conversations: A Reddit Case Study"
           </li>
@@ -140,7 +146,35 @@
           </div>
         </div-->
 
-        <!-- Current Number 5 - Next Number 6 -->
+        <!-- Current Number 4 - Next Number 5 -->
+
+        <div class="publication mb-5">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="/assets/publications/ProvocationProbe.png" class="img-fluid rounded">
+            </div>
+            <div class="col-md-8">
+              <!--h4>Title redacted due to anonymity period</h4-->
+              <h4>ProvocationProbe: Instigating Hate Speech Dataset from Twitter</h4>
+              <h5>Abhay Kumar, Vigneshwaran Shankaran, Rajesh Sharma</h5>
+              <h6>Preprint</h6>
+              <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#abstract4">Abstract</button>
+              <a target="_blank" class="btn btn-primary" href="https://arxiv.org/abs/2410.19687">Paper</a>
+              <!--a target="_blank" class="btn btn-primary" href="https://github.com/s-vigneshwaran/Reddit-Case-Study-Data">Data</a-->
+              <div id="abstract4" class="collapse">
+                <p>
+                  In the recent years online social media platforms has been flooded with hateful remarks such as racism, sexism, homophobia etc. As a result, there have 
+                  been many measures taken by various social media platforms to mitigate the spread of hate-speech over the internet. One particular concept within the domain 
+                  of hate speech is instigating hate, which involves provoking hatred against a particular community, race, colour, gender, religion or ethnicity. In this 
+                  work, we introduce \textit{ProvocationProbe} - a dataset designed to explore what distinguishes instigating hate speech from general hate speech. For this 
+                  study, we collected around twenty thousand tweets from Twitter, encompassing a total of nine global controversies. These controversies span various themes 
+                  including racism, politics, and religion. In this paper, i) we present an annotated dataset after comprehensive examination of all the controversies, ii) we also 
+                  highlight the difference between hate speech and instigating hate speech by identifying distinguishing features, such as targeted identity attacks and reasons for hate.
+                </p>
+              </div>
+            </div> 
+          </div>
+        </div>
 
         <div class="publication mb-5">
           <div class="row">
@@ -181,11 +215,11 @@
             <div class="col-md-8">
               <h4>Revisiting The Classics: A Study on Identifying and Rectifying Gender Stereotypes in Rhymes and Poems</h4>
               <h5>Aditya Narayan Sankaran*, Vigneshwaran Shankaran*, Sampath Lonka, Rajesh Sharma</h5>
-              <h6>To appear in LREC-COLING'24</h6>
-              <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#abstract4">Abstract</button>
+              <h6>LREC-COLING'24</h6>
+              <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#abstract2">Abstract</button>
               <a target="_blank" class="btn btn-primary" href="https://arxiv.org/abs/2403.11752">Paper</a>
               <a target="_blank" class="btn btn-primary" href="https://github.com/s-vigneshwaran/Revisiting-The-Classics">Data</a>
-              <div id="abstract4" class="collapse">
+              <div id="abstract2" class="collapse">
                 <p>
                   Rhymes and poems are a powerful medium for transmitting cultural norms and societal roles. 
                   However, the pervasive existence of gender stereotypes in these works perpetuates biased 
@@ -215,9 +249,9 @@
               <h4>Misinformation Concierge: A proof-of-concept with curated Twitter dataset on COVID-19 vaccination</h4>
               <h5>Shakshi Sharma, Anwittaman Datta, Vigneshwaran Shankaran, Rajesh Sharma</h5>
               <h6>CIKM'23 Demo track</h6>
-              <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#abstract2">Abstract</button>
+              <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#abstract1">Abstract</button>
               <a target="_blank" class="btn btn-primary" href="https://dl.acm.org/doi/10.1145/3583780.3614746">Paper</a>
-              <div id="abstract2" class="collapse">
+              <div id="abstract1" class="collapse">
                 <p>
                   We demonstrate the Misinformation Concierge, a powerful tool that provides actionable intelligence on misinformation 
                   prevalent in social media. Specifically, it uses language processing and machine learning tools to identify 
@@ -230,45 +264,9 @@
               </div>
             </div> 
           </div>
-        </div>
-
-
-        <!--div class="publication mb-5">
-          <div class="row">
-            <div class="col-md-4">
-              <img src="/assets/publications/placeholder.png" class="img-fluid rounded">
-            </div>
-            <div class="col-md-8">
-              <h4>Augmentation Strategies for Testing Robustness in Blackbox Hate Speech Models</h4>
-              <h5>Vigneshwaran Shankaran*, Devayani KV*, Rajesh Sharma</h5>
-              <h6>Under Review in LREC-COLING'24</h6>
-              <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#abstract5">Abstract</button>
-              <a target="_blank" class="btn btn-primary disabled" href="#">Paper</a>
-              <a target="_blank" class="btn btn-primary disabled" href="#">Code</a>
-              <div id="abstract5" class="collapse">
-                <p>
-                  This paper presents innovative augmentation strategies to assess the robustness of 
-                  black-box hate speech models, with the goal of enhancing their defenses against 
-                  adversarial attacks. Our approach revolves around the idea of flipping labels through 
-                  text augmentation, comprising character-level and word-level modifications, as well as 
-                  rephrasing utilizing an LLM. To identify the most effective candidates for label 
-                  flipping, we employ a ranking algorithm that considers various augmentation techniques. 
-                  Once the optimal candidates are identified, we proceed to train a specialized rephrasing 
-                  model. This model is designed to generate adversarial examples by systematically 
-                  modifying the input text. We aim to expose vulnerabilities in the Perspective API and its 
-                  resistance to adversarial manipulation. The results of our experiments reveal the 
-                  efficacy of our augmentation strategies in identifying weaknesses within black-box hate 
-                  speech models, emphasizing the importance of proactive testing for robustness in 
-                  AI-driven content moderation systems. This research contributes to the ongoing efforts 
-                  to develop more reliable and resilient models for combatting hate speech and promoting a 
-                  safer online environment.
-                </p>
-              </div>
-            </div> 
-          </div>
-        </div-->        
+        </div>     
         
-        <div class="publication mb-5">
+        <!--div class="publication mb-5">
           <div class="row">
             <div class="col-md-4">
               <img src="/assets/publications/thesis.png" class="img-fluid rounded">
@@ -303,13 +301,18 @@
               </div>
             </div> 
           </div>
-        </div>
+        </div-->
       </div>
 
       <div id="miscellaneous">
         <h2>Miscellaneous</h2>
 
           <ul>
+            <li>
+              Breuer, Johannes, Soldner, Felix, & Shankaran, Vigneshwaran (2024). European Parliament Election 2024: German Candidates Social Media Activities. GESIS, Cologne. 
+              ZA8917 Data file Version 1.0.0, <a href="https://doi.org/10.4232/1.14455">https://doi.org/10.4232/1.14455</a>.
+            </li>
+
             <li>
               Sub-Reviewer of the 2023 IEEE/ACM International Conference on Advances in Social Network Analysis and Mining.
             </li>
@@ -336,7 +339,7 @@
       </div>
     </main>
 
-    <div class="text-end">Last Updated: 12 April 2024</div>
+    <div class="text-end">Last Updated: 13 December 2024</div>
 
     <script src="/assets/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
